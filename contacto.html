@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | NEOTEK Plegado CNC</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- CABECERA COMÚN CON LOGO, ESLOGAN Y MENÚ -->
+    <header class="cabecera-principal">
+        <div class="contenedor-logo">
+            <a href="index.html" title="Ir al inicio de NEOTEK">
+                <img src="img/logo-neotek.png" alt="Logotipo NEOTEK" class="logo-img">
+            </a>
+        </div>
+
+        <div class="eslogan-cabecera">
+            <span class="eslogan-superior">SOLUCIONES METÁLICAS CNC</span>
+            <p>Innovando la industria del mañana</p>
+        </div>
+
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+                <li><a href="productos-servicios.html">Productos y Servicios</a></li>
+                <li><a href="trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
+                <li><a href="contacto.html" class="activo">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="seccion-contenido">
+        <!-- Datos de localización -->
+        <section class="bloque-contacto-info">
+            <h1>Localización y Datos de Contacto</h1>
+            <p><strong>Dirección:</strong> Polígono Industrial Sector 4, Nave 12, 08302 Mataró (Barcelona)</p>
+            <p><strong>Teléfono Oficina Técnica:</strong> +34 900 123 456 | <strong>Email:</strong> info@neotek-cnc.es</p>
+            <p><strong>Horario de Taller y Recepción:</strong> Lunes a Viernes de 07:00 a 19:00 h</p>
+        </section>
+
+        <!-- Formulario obligatorio: Solicitud de información con validación HTML5 -->
+        <section>
+            <h2>Solicitud de Información</h2>
+            <form action="#" method="post">
+                <div class="campo-formulario">
+                    <label for="nombre">Nombre y Apellidos *</label>
+                    <input type="text" id="nombre" name="nombre" required minlength="3" placeholder="Ej. Marc Vila">
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="email">Correo Electrónico *</label>
+                    <input type="email" id="email" name="email" required placeholder="ejemplo@empresa.com">
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="telefono">Teléfono de Contacto *</label>
+                    <input type="tel" id="telefono" name="telefono" required pattern="[0-9]{9}" title="Introduce un número de teléfono válido de 9 dígitos" placeholder="Ej. 600123456">
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="comentarios">Comentarios o Detalles del Proyecto *</label>
+                    <textarea id="comentarios" name="comentarios" rows="5" required minlength="10" placeholder="Indica el material, espesor y cantidad aproximada de piezas..."></textarea>
+                </div>
+
+                <button type="submit" class="boton-principal boton-enviar">Enviar Solicitud</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA COMÚN -->
+    <footer class="pie-pagina">
+        <div class="pie-contenido">
+            <p><strong>NEOTEK Soluciones Metálicas S.L.</strong> | Polígono Industrial Sector 4, Nave 12</p>
+            <p>Tel: +34 900 123 456 | Email: info@neotek-cnc.es</p>
+            <p>&copy; 2026 NEOTEK. Todos los derechos reservados. | <a href="contacto.html">Aviso Legal y Contacto</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>

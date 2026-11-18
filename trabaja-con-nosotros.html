@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabaja con nosotros | NEOTEK Plegado CNC</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <!-- CABECERA COMÚN CON LOGO, ESLOGAN Y MENÚ -->
+    <header class="cabecera-principal">
+        <div class="contenedor-logo">
+            <a href="index.html" title="Ir al inicio de NEOTEK">
+                <img src="img/logo-neotek.png" alt="Logotipo NEOTEK" class="logo-img">
+            </a>
+        </div>
+
+        <div class="eslogan-cabecera">
+            <span class="eslogan-superior">SOLUCIONES METÁLICAS CNC</span>
+            <p>Innovando la industria del mañana</p>
+        </div>
+
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="quienes-somos.html">¿Quiénes somos?</a></li>
+                <li><a href="productos-servicios.html">Productos y Servicios</a></li>
+                <li><a href="trabaja-con-nosotros.html" class="activo">Trabaja con nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="seccion-contenido">
+        <section class="bloque-servicios">
+            <h1>Únete al Equipo de NEOTEK</h1>
+            <p class="descripcion-tabla">Buscamos profesionales apasionados por el metal y la precisión industrial. Si tienes experiencia en programación de plegadoras CNC o diseño CAD/CAM, queremos conocerte.</p>
+
+            <div class="tarjetas-grid">
+                <article class="tarjeta">
+                    <h2>Operario/a Plegadora CNC</h2>
+                    <p><strong>Requisitos:</strong> Experiencia mínima de 2 años en plegadoras sincronizadas (Trumpf, Bystronic o Amada), interpretación de planos y uso de pie de rey y goniómetro.</p>
+                </article>
+                <article class="tarjeta">
+                    <h2>Técnico/a Oficina CAD/CAM</h2>
+                    <p><strong>Requisitos:</strong> Dominio de SolidWorks Chapa Metálica, cálculo de desarrollos y programación offline de secuencias de plegado.</p>
+                </article>
+            </div>
+        </section>
+
+        <section>
+            <h2>Envía tu Candidatura</h2>
+            <form action="#" method="post">
+                <div class="campo-formulario">
+                    <label for="candidato-nombre">Nombre Completo *</label>
+                    <input type="text" id="candidato-nombre" name="nombre" required minlength="3">
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="candidato-email">Correo Electrónico *</label>
+                    <input type="email" id="candidato-email" name="email" required>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="puesto">Puesto al que optas *</label>
+                    <select id="puesto" name="puesto" required>
+                        <option value="">-- Selecciona un puesto --</option>
+                        <option value="plegador">Operario/a Plegadora CNC</option>
+                        <option value="cadcam">Técnico/a Oficina CAD/CAM</option>
+                        <option value="otros">Otros perfiles industriales</option>
+                    </select>
+                </div>
+
+                <div class="campo-formulario">
+                    <label for="experiencia">Resumen de tu experiencia *</label>
+                    <textarea id="experiencia" name="experiencia" rows="4" required minlength="10" placeholder="Cuéntanos qué máquinas o controles numéricos has manejado..."></textarea>
+                </div>
+
+                <button type="submit" class="boton-principal boton-enviar">Enviar Currículum</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- PIE DE PÁGINA COMÚN -->
+    <footer class="pie-pagina">
+        <div class="pie-contenido">
+            <p><strong>NEOTEK Soluciones Metálicas S.L.</strong> | Polígono Industrial Sector 4, Nave 12</p>
+            <p>Tel: +34 900 123 456 | Email: info@neotek-cnc.es</p>
+            <p>&copy; 2026 NEOTEK. Todos los derechos reservados. | <a href="contacto.html">Aviso Legal y Contacto</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
